@@ -1,0 +1,13 @@
+.priceHeading h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+.priceHeading h2 span{
+     color: #FCD842;
+}
+.priceHeading p{
+    text-align: center;
+    width: 60%;
+    margin: 15px auto;
+    color: gray;
+}

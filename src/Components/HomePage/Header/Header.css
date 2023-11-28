@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)), url('../../../Resource/images/Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerContent{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+    /* margin-top: 20px; */
+}
+.video-area{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+}
+.playbtn{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.playbtn img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .video-area{
+        margin-top: 50px;
+     }
+     .playbtn{
+        width: 80px;
+        height: 80px;
+    }
+}

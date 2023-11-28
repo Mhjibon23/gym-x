@@ -1,0 +1,144 @@
+/* .aboutImage{
+    width: 100%;
+    height: 600px;
+}
+.aboutImage img{
+    width: 90%;
+    height: 100%;
+} */
+.aboutContainer h2{
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: lightgray;
+    opacity: 30%;
+}
+.aboutContainer h3{
+    color: #FCD842;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    margin: 10px 0px;
+}
+.aboutContainer h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: 10px 0px;
+}
+.about {
+    position: relative;
+  }
+  
+  .about::before,
+  .about::after {
+    content: '';
+    position: absolute;
+    background-color: #FCD842; /* Change the color as needed */
+    height: 145px;
+    width: 1px;
+  }
+  
+  .about::before {
+    top: -70%;
+    right: 40%;
+  }
+  .about::after {
+    bottom: -70%;
+    right: 40%;
+  }
+@media (max-width: 1400px) {
+    .about::before {
+        top: -60%;
+        right: 30%;
+      }
+      .about::after {
+        bottom: -60%;
+        right: 30%;
+      }
+}
+@media (max-width: 1200px) {
+    .about::before {
+        top: -60%;
+        right: 20%;
+      }
+      .about::after {
+        bottom: -60%;
+        right: 20%;
+      }
+    .aboutContainer h3{
+        font-size: 2rem;
+    }
+    .aboutContainer h4{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .about::before {
+        top: -50%;
+        right: 10%;
+      }
+      .about::after {
+        bottom: -50%;
+        right: 10%;
+      }
+    .aboutContainer h4{
+        font-size: 1.5rem;
+    }
+    .aboutContainer h2{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 768px) {
+    .about::before,
+  .about::after {
+    height: 60px;
+    width: 1px;
+  }
+    .about::before {
+        top: -30%;
+        right: 35%;
+      }
+      .about::after {
+        bottom: -30%;
+        right: 35%;
+      }
+}
+@media (max-width: 480px) {
+  .about::before,
+  .about::after {
+    height: 40px;
+    width: 1px;
+  }
+    .about::before {
+        top: -25%;
+        right: 33%;
+      }
+      .about::after {
+        bottom: -25%;
+        right: 35%;
+      }
+    /* .aboutContainer h4{
+        font-size: 1.5rem;
+    } */
+    .aboutContainer h2{
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 400px) {
+  .about::before,
+  .about::after {
+    height: 40px;
+    width: 1px;
+  }
+    .about::before {
+        top: -22%;
+        right: 25%;
+      }
+      .about::after {
+        bottom: -22%;
+        right: 25%;
+      }
+}

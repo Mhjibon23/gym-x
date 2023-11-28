@@ -1,0 +1,30 @@
+.trainig-header h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.trainingContent{
+    cursor: pointer;
+}
+.trainingBtn h2{
+    font-family: 'Oswald', sans-serif;
+    background-color: #FCD842;
+    display: inline;
+    position: relative;
+    bottom: 90px;
+    padding: 10px 8px;
+    font-size: 2rem;
+}
+@media (max-width: 992px) {
+    .trainingBtn h2{
+        padding: 5px 8px;
+        font-size: 1rem;
+        bottom: 60px;
+    }
+}
+@media (max-width: 992px) {
+    .trainingBtn h2{
+        bottom: 90px;
+        padding: 10px 8px;
+        font-size: 1.5rem;
+    }
+}

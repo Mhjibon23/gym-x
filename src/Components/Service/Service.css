@@ -1,0 +1,17 @@
+.serviceContent h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+/* .right{
+    position: relative;
+}
+.joinUsbtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+@media (max-width: 992px) {
+    .serviceContent h2{
+        font-size: 2rem;
+    }
+}

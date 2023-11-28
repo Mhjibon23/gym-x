@@ -1,0 +1,32 @@
+.chooseContent{
+    box-shadow: 1px 1px 10px lightgray;
+    height: 450px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.chooseContent:hover{
+    border: 3px solid #FCD842;
+    cursor: pointer;
+}
+.chooseImg{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.chooseImg img{
+    width: 100%;
+    height: 100%;
+}
+.chooseContent h2{
+    margin-top: 60px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.chooseContent p{
+    width: 80%;
+    margin: 20px auto;
+}

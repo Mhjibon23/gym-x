@@ -1,0 +1,93 @@
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.input-box{
+    width: 100%;
+    height: 60px;
+    background-color: rebeccapurple;
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+}
+.input-box select{
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+.bankDetails{
+    border: 1px solid gray;
+}
+.cardId input{
+    width: 40px;
+    height: 40px;
+    
+}
+.cardId h3{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+.cardHeading p{
+    margin-left: 65px;
+    color: gray;
+}
+.cardImg img{
+    margin: 0px 10px;
+}
+.cardInput-box{
+    width: 100%;
+    height: 60px;
+}
+.cardInput-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid lightgray;
+    
+}
+.cardInput-box input::placeholder{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cNumber label{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardIcon{
+    width: 90px;
+    height: 60px;
+    position: relative;
+    bottom: 60px;
+    right: 20px;
+}
+.cardIcon img{
+    width: 100%;
+    height: 100%;
+    
+}
+.cName label{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finalStep h2,h1{
+    font-family: 'Oswald', sans-serif;
+    color: #1472a0;
+}
+@media (max-width: 536px) {
+    .cardInput-box input::placeholder{
+        padding-left: 18px;
+        font-size: 16px;
+    }
+    .cardIcon{
+        width: 70px;
+        height: 50px;
+        bottom: 55px;
+        right: 10px;
+    }
+}

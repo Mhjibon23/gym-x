@@ -1,0 +1,26 @@
+.classImage{
+    width: 100%;
+    height: 450px;
+}
+.classImage img{
+    width: 100%;
+    height: 100%;
+}
+.classContainer{
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.classContainer:hover{
+    transform: scale(1.1);
+}
+.classContainer h2{
+    background-color: #FCD842;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 3px;
+    position: relative;
+    bottom: 32px;
+    font-size: 1.5rem;
+}

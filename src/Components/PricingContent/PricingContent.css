@@ -1,0 +1,17 @@
+.priceContent h6{
+    color: #FCD842;
+}
+.priceContent h2{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-size: 3rem;
+}
+.priceContent h1{
+    color: #FCD842;
+    font-family: 'Oswald', sans-serif;
+}
+.tikContent{
+    color: white;
+    display: flex;
+    justify-content: center;
+}

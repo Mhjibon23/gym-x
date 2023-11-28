@@ -1,0 +1,37 @@
+.bgColor{
+    background: rgba(0, 0, 0, 0.4);
+}
+.logo{
+    font-family: 'Oswald';
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: white;
+}
+.logo:hover{
+    color: white;
+}
+.logo span{
+    color: #FCD842;
+    font-family: 'Oswald';
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.link{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.link:hover{
+    color: #FCD842;
+    transition: 0.5s;
+}
+.navbar-toggler-icon{
+    background-image: url('../../../Resource/icon/menu-regular-24.png');
+    font-size: 20px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}

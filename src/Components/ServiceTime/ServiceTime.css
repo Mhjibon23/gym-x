@@ -1,0 +1,21 @@
+.serviceSchedule{
+    box-shadow: 1px 1px 10px lightgray;
+    cursor: pointer;
+    transition: .5s;
+}
+.serviceSchedule:hover{
+    transform: scale(1.1);
+}
+.serviceSchedule h1{
+    /* font-family: 'Oswald', sans-serif; */
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.serviceSchedule h5{
+    color: #FCD842;
+}
+@media (max-width: 1200px) {
+    .serviceSchedule h1{
+        font-size: 25px;
+    }
+}
